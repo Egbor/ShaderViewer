@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{07d5b09f-c293-4bd5-b896-e4ffa0f3edde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine">
+      <UniqueIdentifier>{1427208f-0a29-458b-8672-a531b3361e09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Exception">
+      <UniqueIdentifier>{159166a6-68e3-4e4c-b725-03610fee1844}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Window">
+      <UniqueIdentifier>{94a615e7-507d-4a28-a2aa-8f96c0ce6fba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Graphic">
+      <UniqueIdentifier>{8f85b84a-3be1-4cc0-ae8f-85a05854a6ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Graphic\Object">
+      <UniqueIdentifier>{826a6e60-e694-4432-83a7-b91061afc929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Graphic\Object\Camera">
+      <UniqueIdentifier>{a8a52f5f-c46d-42c6-9a8f-105ae3c87775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Graphic\Object\DrawableObject">
+      <UniqueIdentifier>{38d51886-3211-4d44-a79c-17afa11def0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Graphic\Shader">
+      <UniqueIdentifier>{cdc394e1-5aa2-49d9-9ea5-b5e9114a49e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Time">
+      <UniqueIdentifier>{c4e8c191-58c4-49ad-ade9-4441301e8757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Math">
+      <UniqueIdentifier>{3c91c900-1652-4184-889e-c0113bc20428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Window\Input">
+      <UniqueIdentifier>{5ccc84ad-7c92-4556-a57a-cb5dc61eec5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Math\Vector">
+      <UniqueIdentifier>{71b8030c-ea2a-4a9c-b635-290bf2dde8b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Math\Transform">
+      <UniqueIdentifier>{95a819ef-9130-433c-91ab-7cda5175dd05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Math\Matrix">
+      <UniqueIdentifier>{0c14fcf3-9467-468d-a995-195a62d46f1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Math\Quaternion">
+      <UniqueIdentifier>{c945b9c7-e792-4449-b528-d5cd1c7a32a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Script">
+      <UniqueIdentifier>{9d0a7a6e-aae2-4bb4-be66-70490dd1b0d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Script\CameraController">
+      <UniqueIdentifier>{9c3757d3-8cb6-44f1-9392-4c2e666124fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Window\FileManagment">
+      <UniqueIdentifier>{a664444c-6797-437d-bde5-294b4a9cb372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Graphic\Object\DrawableObject\Model">
+      <UniqueIdentifier>{7b1cff6a-5dc4-49ab-a2a6-2f6f9f483c7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Window\FileManagment\ObjReader">
+      <UniqueIdentifier>{738d2826-48ab-4211-9867-db01158d5d87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ShaderViewer">
+      <UniqueIdentifier>{2a29fb4a-012d-4c5f-9457-2b56bea5df07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Resource">
+      <UniqueIdentifier>{a9903be6-6faf-4b7f-9170-c73237956a72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Window\Controls">
+      <UniqueIdentifier>{2bc254f5-706b-4516-8b69-55c48610a45b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Engine\Window\Controls\ListView">
+      <UniqueIdentifier>{a01fb9e3-08c8-427d-b250-9a9a07f406fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineException.cpp">
+      <Filter>src\Engine\Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>src\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>src\Engine\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawacleObject.cpp">
+      <Filter>src\Engine\Graphic\Object\DrawableObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>src\Engine\Graphic\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>src\Engine\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>src\Engine\Graphic\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>src\Engine\Graphic\Object\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>src\Engine\Window\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraController.cpp">
+      <Filter>src\Engine\Script\CameraController</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>src\Engine\Math\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>src\Engine\Math\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4x4.cpp">
+      <Filter>src\Engine\Math\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
+      <Filter>src\Engine\Math\Quaternion</Filter>
+    </ClCompile>
+    <ClCompile Include="Script.cpp">
+      <Filter>src\Engine\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>src\Engine\Graphic\Object\DrawableObject\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjReader.cpp">
+      <Filter>src\Engine\Window\FileManagment\ObjReader</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderViewer.cpp">
+      <Filter>src\ShaderViewer</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>src\Engine\Window\FileManagment</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformFixed.cpp">
+      <Filter>src\Engine\Math\Transform</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EngineException.h">
+      <Filter>src\Engine\Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>src\Engine\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicComman.h">
+      <Filter>src\Engine\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawableObject.h">
+      <Filter>src\Engine\Graphic\Object\DrawableObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>src\Engine\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>src\Engine\Graphic\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineUtility.h">
+      <Filter>src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>src\Engine\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>src\Engine\Graphic\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>src\Engine\Graphic\Object\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="MathCommon.h">
+      <Filter>src\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffers.h">
+      <Filter>src\Engine\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>src\Engine\Window\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraController.h">
+      <Filter>src\Engine\Script\CameraController</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>src\Engine\Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>src\Engine\Math\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4x4.h">
+      <Filter>src\Engine\Math\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>src\Engine\Math\Quaternion</Filter>
+    </ClInclude>
+    <ClInclude Include="Script.h">
+      <Filter>src\Engine\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>src\Engine\Graphic\Object\DrawableObject\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjReader.h">
+      <Filter>src\Engine\Window\FileManagment\ObjReader</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources.h">
+      <Filter>src\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderViewer.h">
+      <Filter>src\ShaderViewer</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>src\Engine\Window\FileManagment</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformFixed.h">
+      <Filter>src\Engine\Math\Transform</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MainResrc.rc">
+      <Filter>src\Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

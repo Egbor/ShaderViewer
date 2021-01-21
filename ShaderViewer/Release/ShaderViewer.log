@@ -1,0 +1,32 @@
+﻿  Camera.cpp
+  CameraController.cpp
+  DrawacleObject.cpp
+  Engine.cpp
+  EngineException.cpp
+  FileManager.cpp
+  Input.cpp
+  main.cpp
+  Matrix4x4.cpp
+  Model.cpp
+  Object.cpp
+  ObjReader.cpp
+  Quaternion.cpp
+  Script.cpp
+  Shader.cpp
+  ShaderViewer.cpp
+D:\Projects\C++_projects\ShaderViewer\ShaderViewer\ShaderViewer.cpp(128,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Projects\C++_projects\ShaderViewer\ShaderViewer\ShaderViewer.cpp(129,21): warning C4018: <: несоответствие типов со знаком и без знака
+  Time.cpp
+  Transform.cpp
+  TransformFixed.cpp
+  Vector.cpp
+  Компиляция...
+  Window.cpp
+  Создание кода
+  2012 of 2012 functions (100.0%) were compiled.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+DirectXTK.lib(pch.obj) : warning LNK4099: "DirectXTK.pdb" PDB не найден с "DirectXTK.lib(pch.obj)" или на "D:\Projects\C++_projects\ShaderViewer\Release\DirectXTK.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+DirectXTK.lib(WICTextureLoader.obj) : warning LNK4099: "DirectXTK.pdb" PDB не найден с "DirectXTK.lib(WICTextureLoader.obj)" или на "D:\Projects\C++_projects\ShaderViewer\Release\DirectXTK.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+  ShaderViewer.vcxproj -> D:\Projects\C++_projects\ShaderViewer\Release\ShaderViewer.exe

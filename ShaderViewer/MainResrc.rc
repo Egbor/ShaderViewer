@@ -1,0 +1,10 @@
+#include "Resources.h"
+
+IDR_MAINMENU MENU
+BEGIN
+   POPUP "&File"
+   BEGIN
+      MENUITEM "&Import", ID_IMPORT
+      MENUITEM "E&xit", ID_EXIT
+   END
+END
